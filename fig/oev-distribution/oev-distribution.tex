@@ -1,0 +1,45 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,shapes}
+\renewcommand{\familydefault}{\sfdefault} % Sans serif
+
+\tikzset{
+	partial ellipse/.style args={#1:#2:#3}{
+		insert path={+ (#1:#3) arc (#1:#2:#3)}
+	}
+}
+
+\begin{document}	
+	\begin{tikzpicture}
+	\node[draw, minimum width=3cm,minimum height=2.5cm] at (0,0) (base-data-feed) {};
+	\node[below] at ([shift=({0,-0.125})]base-data-feed.north) {Base data feed};
+	\node[draw, ellipse, scale=0.8] at ([shift=({0,0.625})]base-data-feed.south) (datapoint-base) {Datapoint};
+	
+	\node[draw, minimum width=3cm,minimum height=2.5cm] at (5,0) (dapp-specific-proxy) {};
+	\node[below] at ([shift=({0,-0.125})]dapp-specific-proxy.north) {dApp-specific proxy};
+	\node[draw, ellipse, scale=0.75] at ([shift=({0,0.625})]dapp-specific-proxy.south) (datapoint-specific) {Datapoint};
+	\node[draw, circle, scale=0.5] at (5, 0) (sum) {$+$};
+	\node[scale=0.5] at ([shift=({0,0.125})]sum.north) {\textit{Prefers more recent}};
+	
+	\node[draw, minimum width=3cm,minimum height=2.5cm] at (10,0) (dapp) {dApp};
+	
+	\node[draw, minimum width=3cm,minimum height=1.25cm] at (0,-3) (oracle-nodes) {Oracle nodes};
+	
+	\node[draw, minimum width=3cm,minimum height=1.25cm] at (5,-3) (searchers) {Searchers};
+	
+	\draw[-{Stealth[scale=1.25]}] (oracle-nodes) to (datapoint-base);
+	\node[align=center, scale=0.8] at (0.5,-1.875) {Update\\directly};
+	\draw (datapoint-base) to (0,0) to (sum);
+	%\node[align=center, scale=0.8] at (2.5,0.25) {Reads};
+	\draw[-{Stealth[scale=1.25]}] (sum) to (dapp);
+	%\node[align=center, scale=0.8] at (7.5,0.25) {Reads};
+	
+	\draw[-{Stealth[scale=1.25]}, dashed] (oracle-nodes) to (searchers);
+	\node[align=center, scale=0.8] at (2.5,-2.625) {Receive meta-tx\\through auction};
+	
+	\draw[-{Stealth[scale=1.25]}] (searchers) to (datapoint-specific);
+	\node[align=center, scale=0.8] at (6,-1.875) {Update with\\meta-tx and pay};
+	
+	\draw (datapoint-specific) to (sum);
+	\end{tikzpicture}
+\end{document}

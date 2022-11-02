@@ -1,0 +1,92 @@
+\begin{thebibliography}{10}
+
+\bibitem{api3}
+{Benligiray, Burak and Mili\'{c}, Sa\v{s}a and Vänttinen, Heikki}, ``{API3:
+  Decentralized APIs for Web 3.0},'' {\em Whitepaper}, 2020.
+\newblock
+  \url{https://raw.githubusercontent.com/api3dao/api3-whitepaper/master/api3-whitepaper.pdf}.
+
+\bibitem{flashbots-explore}
+{Flashbots}, ``{MEV-Explore v1}.'' \url{https://explore.flashbots.net/}.
+
+\bibitem{Daian:2019}
+{Daian, Philip and Goldfeder, Steven and Kell, Tyler and Li, Yunqi and Zhao,
+  Xueyuan and Bentov, Iddo and Breidenbach, Lorenz and Juels, Ari}, ``{Flash
+  boys 2.0: Frontrunning, transaction reordering, and consensus instability in
+  decentralized exchanges},'' {\em
+  \href{https://arxiv.org/abs/1904.05234}{arXiv preprint arXiv:1904.05234}},
+  2019.
+
+\bibitem{flashbots-boost}
+Flashbots, ``{MEV-Boost}.''
+  \url{https://docs.flashbots.net/flashbots-mev-boost/introduction}.
+
+\bibitem{sip-37}
+{Synthetix}, ``{SIP 37: Fee reclamations and rebates}.''
+  \url{https://sips.synthetix.io/sips/sip-37/}, 2020.
+
+\bibitem{kip-17}
+{Rook}, ``{KIP 17: Provide a coordination facility for GMX}.''
+  \url{https://forum.rook.fi/t/kip-17-provide-a-coordination-facility-for-gmx/272},
+  2022.
+
+\bibitem{flashbots-centralization-2}
+{Quintus (Flashbots)}, ``{Order flow, auctions and centralisation II: Order
+  flow auctions}.''
+  \url{https://collective.flashbots.net/t/order-flow-auctions-and-centralisation-ii-order-flow-auctions/284},
+  2022.
+
+\bibitem{flashbots-protect}
+Flashbots, ``{Flashbots Protect}.''
+  \url{https://docs.flashbots.net/flashbots-protect/overview}.
+
+\bibitem{sip-198}
+{Synthetix}, ``{SIP 198: Update to atomic exchange function}.''
+  \url{https://sips.synthetix.io/sips/sip-198/}, 2022.
+
+\bibitem{uniswap}
+Uniswap, ``{Oracles}.''
+  \url{https://docs.uniswap.org/protocol/V2/concepts/core-concepts/oracles}.
+
+\bibitem{dune-liquidations}
+@dsalv (Dune), ``{DeFi liquidations}.''
+  \url{https://dune.com/dsalv/Liquidations}.
+
+\bibitem{euler}
+{Bentley, Michael and Hoyte, Doug}, ``Euler,'' {\em Whitepaper}, 2022.
+\newblock \url{https://docs.euler.finance/getting-started/white-paper}.
+
+\bibitem{flashbots-centralization-1}
+{Quintus (Flashbots)}, ``{Order flow, auctions and centralisation I: A
+  warning}.''
+  \url{https://collective.flashbots.net/t/order-flow-auctions-and-centralisation-i-a-warning/258},
+  2022.
+
+\bibitem{rook}
+Rook. \url{https://docs.rook.fi/reference/}.
+
+\bibitem{flashbots-suave}
+B.~B. Liu, ``{Flashbots has a new plan: `Make TradFi look embarrassing’}.''
+  \url{https://blockworks.co/flashbots-has-a-new-plan-make-tradfi-look-embarrassing/},
+  2022.
+
+\bibitem{fpsba}
+Wikipedia, ``First-price sealed-bid auction.''
+  \url{https://en.wikipedia.org/wiki/First-price_sealed-bid_auction}.
+
+\bibitem{airnode-sign}
+API3, ``{Airnode: Off-chain data signing}.''
+  \url{https://docs.api3.org/airnode/v0.8/#off-chain-data-signing}.
+
+\bibitem{flashbots-boost-relays}
+Flashbots, ``{MEV-Boost: Relays}.''
+  \url{https://docs.flashbots.net/flashbots-mev-boost/relays}.
+
+\bibitem{airnode}
+API3, ``Airnode.'' \url{https://docs.api3.org/airnode/}.
+
+\bibitem{rook-reputation}
+Rook, ``{Rook Protocol: Reputation}.''
+  \url{https://docs.rook.fi/reference/rook-protocol/reputation}.
+
+\end{thebibliography}

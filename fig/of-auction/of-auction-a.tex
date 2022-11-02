@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\renewcommand{\familydefault}{\sfdefault} % Sans serif
+
+\begin{document}	
+	\begin{tikzpicture}
+	\node[draw, circle, align=center, minimum size=2cm] at (0,0) (of-auction) {Generalised\\OF auction};
+	\node[draw, align=center, minimum width=2cm,minimum height=1cm] at (0,3) (oracle-nodes) {Oracle nodes};
+	\node[draw, align=center, minimum width=2cm,minimum height=1cm] at (0,-3) (searcher) {Searcher};
+	\node[draw, align=center, minimum width=2cm,minimum height=1cm] at (4.3, 0) (data-feed) {Data feed};
+
+	\draw[-{Stealth[scale=1.25]}] (oracle-nodes) to (of-auction);
+	\node[align=center, scale=0.8] at (0.5, 1.75) {Send tx};
+
+	\draw[-{Stealth[scale=1.25]}] (searcher) to (of-auction);
+	\node[align=center, scale=0.8] at (0.75, -1.75) {Bids on OF};
+	
+	\draw[-{Stealth[scale=1.25]}] (of-auction) to (data-feed);
+	\node[align=center, scale=0.8] at (2.15, 0.5) {Updates by\\sending OF to\\private mempool};
+	\end{tikzpicture}
+\end{document}
