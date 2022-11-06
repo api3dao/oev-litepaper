@@ -33,9 +33,9 @@
 
 \begin{document}
 
-\pagenumbering{gobble}
-
 \maketitle
+
+\pagenumbering{arabic}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Introduction}
@@ -89,7 +89,7 @@ This leaves the oracle and the dApp struggling to find sustainable profitability
 \subsection{Frontrunning}
 
 Frontrunning and arbitrage are known as \textit{toxic flow} for derivative protocols because these transactions lead solely to losses for their LPs without providing any meaningful benefits. 
-Large data feed customers such as Synthetix have outlined the issue frontrunning poses for LP profitability in proposal~\cite{sip-37}.
+Large data feed customers such as Synthetix have outlined the issue frontrunning poses for LP profitability~\cite{sip-37}.
 By sending their transactions blindly to the public mempool, oracles are publishing the future price of that asset for any dApp using the data feed.
 This allows searchers the time to bid for their own transaction to be ordered directly before the oracle transaction, so that they can make a guaranteed profit on the direction of the move.
 LPs on these platforms must take the opposite of every trade against the underlying price, and therefore are forced to incur these losses.
@@ -180,7 +180,7 @@ A much more efficient system can be designed where data feeds are updated exactl
 
 OEV auctions will not prevent \textbf{frontrunning}, but instead aim minimise the value loss.
 A first-price-sealed-bid auction process~\cite{fpsba}, under perfect competition, should result in the value extracted from frontrunning OEV data feeds approaching the cost of blockspace for executing the opportunity.
-This means that LPs are compensating searchers the minimal amount they need to for gas and transaction execution of data feed updates, in the form of frontrunning profits.
+This means that LPs are compensating searchers the minimal amount required for gas and transaction execution of data feed updates, in the form of frontrunning profits.
 Outsourcing the role of performing data feed updates to searchers provides economic guarantees of a more performant oracle designed to maximise revenue for LPs.
 
 More granular data prevents much of the toxic flow presented to the protocol LPs from \textbf{arbitrage}, and maximises the retention of any that still exists through the auction.
