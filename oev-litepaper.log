@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.28)  4 NOV 2022 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.28)  7 NOV 2022 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,14 +708,14 @@ Package caption Info: End \AtBeginDocument code.
 <fig/api3/api3.pdf, id=72, 224.84pt x 72.27pt>
 File: fig/api3/api3.pdf Graphic file (type pdf)
 <use fig/api3/api3.pdf>
-Package pdftex.def Info: fig/api3/api3.pdf  used on input line 38.
+Package pdftex.def Info: fig/api3/api3.pdf  used on input line 36.
 (pdftex.def)             Requested size: 278.23828pt x 89.44402pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -725,12 +725,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <fig/teaser/teaser.pdf, id=105, 359.65569pt x 138.8126pt>
 File: fig/teaser/teaser.pdf Graphic file (type pdf)
 <use fig/teaser/teaser.pdf>
-Package pdftex.def Info: fig/teaser/teaser.pdf  used on input line 67.
+Package pdftex.def Info: fig/teaser/teaser.pdf  used on input line 65.
 (pdftex.def)             Requested size: 359.6548pt x 138.81226pt.
 <fig/api3/api3-solo.pdf, id=108, 69.9565pt x 61.50478pt>
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 88.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 86.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
 
 
@@ -739,150 +739,94 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.88 
-      [2 <./fig/api3/api3-solo.pdf>]
+[2 <./fig/api3/api3-solo.pdf>]
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 98.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 96.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.98 
-      [3 <./fig/teaser/teaser.pdf>]
+ [3 <./fig/teaser/teaser.pdf>]
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 125.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 123.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.125 
-       [4]
+ [4]
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 144.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 142.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.144 
-       [5]
-<fig/of-auction/of-auction-a.pdf, id=156, 181.57436pt x 199.5696pt>
+ [5]
+<fig/of-auction/of-auction-a.pdf, id=160, 181.57436pt x 199.5696pt>
 File: fig/of-auction/of-auction-a.pdf Graphic file (type pdf)
 <use fig/of-auction/of-auction-a.pdf>
 Package pdftex.def Info: fig/of-auction/of-auction-a.pdf  used on input line 14
-9.
+7.
 (pdftex.def)             Requested size: 181.5739pt x 199.56909pt.
-<fig/of-auction/of-auction-b.pdf, id=157, 190.7958pt x 199.5696pt>
+<fig/of-auction/of-auction-b.pdf, id=161, 190.7958pt x 199.5696pt>
 File: fig/of-auction/of-auction-b.pdf Graphic file (type pdf)
 <use fig/of-auction/of-auction-b.pdf>
 Package pdftex.def Info: fig/of-auction/of-auction-b.pdf  used on input line 15
-6.
+4.
 (pdftex.def)             Requested size: 190.79533pt x 199.56909pt.
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 178.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 176.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.178 
-       [6 <./fig/of-auction/of-auction-a.pdf> <./fig/of-auction/of-auction-b.pd
-f>]
+ [6 <./fig/of-auction/of-auction-a.pdf> <./fig/of-auction/of-auction-b.pdf>]
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 192.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 190.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.192 
-       [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 209.
+ [7]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 207.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 209.
-<fig/oev-relay/oev-relay.pdf, id=185, 254.36632pt x 191.83067pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 207.
+<fig/oev-relay/oev-relay.pdf, id=191, 254.36632pt x 191.83067pt>
 File: fig/oev-relay/oev-relay.pdf Graphic file (type pdf)
 <use fig/oev-relay/oev-relay.pdf>
-Package pdftex.def Info: fig/oev-relay/oev-relay.pdf  used on input line 219.
+Package pdftex.def Info: fig/oev-relay/oev-relay.pdf  used on input line 217.
 (pdftex.def)             Requested size: 254.36569pt x 191.8302pt.
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 231.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 229.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.231 
-       [8]
+ [8]
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 243.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 241.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.243 	\item \textbf
-                    {Unconditional bids:} The OEV Relay could also require u...
-[9 <./fig/oev-relay/oev-relay.pdf>]
-Overfull \hbox (5.26262pt too wide) in paragraph at lines 243--246
+ [9 <./fig/oev-relay/oev-relay.pdf>]
+Overfull \hbox (5.26262pt too wide) in paragraph at lines 241--244
 \OT1/cmr/m/n/10.95 by forc-ing searchers to com-mit to pay-ment be-fore uti-liz
 -ing the meta-transaction.
  []
 
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 269.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 267.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.269 
-       [10]
-<fig/oev-distribution/oev-distribution.pdf, id=209, 370.28539pt x 139.1067pt>
+[10]
+<fig/oev-distribution/oev-distribution.pdf, id=218, 370.28539pt x 139.1067pt>
 File: fig/oev-distribution/oev-distribution.pdf Graphic file (type pdf)
 <use fig/oev-distribution/oev-distribution.pdf>
 Package pdftex.def Info: fig/oev-distribution/oev-distribution.pdf  used on inp
-ut line 272.
+ut line 270.
 (pdftex.def)             Requested size: 370.28448pt x 139.10635pt.
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 287.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 285.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.287 ...ion{Integrating a dApp to OEV data feeds}
-                                                   [11 <./fig/oev-distribution/
-oev-distribution.pdf>] (./oev-litepaper.bbl
+ [11 <./fig/oev-distribution/oev-distribution.pdf>] (./oev-litepaper.bbl
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
 Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 8.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.8 
-     [12]
+
+[12]
 Underfull \hbox (badness 3514) in paragraph at lines 21--23
 []\OT1/cmr/m/n/10 Flashbots, ``MEV-Boost.'' []$\OT1/cmtt/m/n/10 https : / / doc
 s . flashbots . net / flashbots -[] mev -[] boost /
@@ -946,42 +890,32 @@ File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
 Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 88.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.88 \bibitem{rook-reputation}
-                               [13]
+[13]
 Underfull \hbox (badness 1629) in paragraph at lines 89--91
 []\OT1/cmr/m/n/10 Rook, ``Rook Pro-to-col: Rep-u-ta-tion.'' []$\OT1/cmtt/m/n/10
  https : / / docs . rook . fi / reference / rook -[]
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
 File: fig/api3/api3-solo.pdf Graphic file (type pdf)
 <use fig/api3/api3-solo.pdf>
-Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 328.
+Package pdftex.def Info: fig/api3/api3-solo.pdf  used on input line 326.
 (pdftex.def)             Requested size: 22.65338pt x 19.91692pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.328 \end{document}
-                     [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
  (./oev-litepaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
 Package rerunfilecheck Info: File `oev-litepaper.out' has not changed.
 (rerunfilecheck)             Checksum: 84342AF6BAB5A0BF059DA3BD4A2AE38D;1069.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
  ) 
 Here is how much of TeX's memory you used:
- 8916 strings out of 492982
- 134703 string characters out of 6134895
- 258729 words of memory out of 5000000
- 12314 multiletter control sequences out of 15000+600000
+ 8928 strings out of 492982
+ 134776 string characters out of 6134895
+ 258744 words of memory out of 5000000
+ 12313 multiletter control sequences out of 15000+600000
  15764 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,15n,43p,642b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -996,10 +930,10 @@ blic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmtt10.pfb>
-Output written on oev-litepaper.pdf (14 pages, 239770 bytes).
+Output written on oev-litepaper.pdf (14 pages, 240223 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
  172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
