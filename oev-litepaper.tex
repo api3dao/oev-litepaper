@@ -16,7 +16,7 @@
 \title{\includegraphics[width=0.7\textwidth]{fig/api3/api3} \\ Oracle Extractable Value (OEV)\\ through Order Flow Auctions
 }
 \author{Jacob Greene, Ashar Shahid, Burak Benligiray, Heikki Vänttinen}
-\date{\hyperref[sec:versions]{v1.0.0} \\ \medskip \href{https://api3.org}{api3.org}}
+\date{\hyperref[sec:versions]{v1.0.1} \\ \medskip \href{https://api3.org}{api3.org}}
 
 % no paragraph indents
 \setlength\parindent{0pt}
@@ -44,7 +44,10 @@ Stakeholders of most DeFi applications now demand that the MEV extracted from th
 These design decisions leave most of the MEV to block producers, who capture it by hosting blockspace auctions.
 A blockspace auction occurs whenever an MEV opportunity presents itself, and \textit{searchers} bid for the right to have their transaction ordered within that block in a way that allows them to extract value.
 This is usually done in the form of probabilistic gas auctions~\cite{Daian:2019}, unless there are off-chain solutions for block producers on that network such as the one popularised by Flashbots for Ethereum~\cite{flashbots-boost}.
-{\let\thefootnote\relax\footnote{{We thank Hamzah Khan, Torgin Mackinga, Nicolas Laurent and Daniele Pinna for reviewing an earlier version of this paper.}}}
+{\let\thefootnote\relax\footnote{{Over the years, API3 has significantly improved on the design that has been put forth in this paper.
+Therefore, please only refer to this paper for historical purposes.
+We thank Hamzah Khan, Torgin Mackinga, Nicolas Laurent and Daniele Pinna for reviewing an earlier version of this paper.
+}}}
 
 A subset of MEV is related to the way oracles are currently designed, and can be termed ``oracle extractable value" (OEV).
 For dApps that rely on oracles, any update to the data feed, or the lack thereof, can create opportunities for OEV such as frontrunning, arbitrage and liquidations.
@@ -313,6 +316,8 @@ This will result in improvements to pricing accuracy and, therefore, should gene
 \appendix
 \section{Versions}
 \label{sec:versions}
+\href{https://github.com/api3dao/oev-litepaper/releases/tag/v1.0.1}{v1.0.1} -- Burak Benligiray, November 2024.
+
 \href{https://github.com/api3dao/oev-litepaper/releases/tag/v1.0.0}{v1.0.0} -- Jacob Greene, Ashar Shahid, Burak Benligiray, Heikki Vänttinen, November 2022.
 
 \section{Disclaimer}
