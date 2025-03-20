@@ -2,7 +2,7 @@
 
 Use the communication channels to discuss:
 
-* Discord: https://discord.com/invite/qnRrcfnm5W
+* Discord: https://discord.gg/api3dao
 
 * Forum: https://forum.api3.org/
 
